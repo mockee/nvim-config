@@ -2,7 +2,7 @@
 
 ## Manager
 
-- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) - A use-package inspired plugin manager for Neovim
+- [folke/lazy.nvim](https://github.com/folke/lazy.nvim) - A modern plugin manager for Neovim
 - [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) - Portable package manager for Neovim
 
 ### LSP configs
@@ -32,11 +32,11 @@ require('tokyonight').setup({
 
 ### Statusline
 
-Use [Lualine](https://github.com/nvim-lualine/lualine.nvim) and enable the `tokyonight` colorscheme
+Use [Lualine](https://github.com/nvim-lualine/lualine.nvim) and enable the `tokyonight` colorscheme and `lazy.status`
 
 ### Tabs
 
-Use [akinsho/nvim-bufferline.lua](https://github.com/akinsho/bufferline.nvim/tree/06eb4ad9486bd13440ffea243ea83d314f4a8e7e)
+[akinsho/nvim-bufferline.lua](https://github.com/akinsho/bufferline.nvim/tree/06eb4ad9486bd13440ffea243ea83d314f4a8e7e)
 
 | Normal    | Command               | Description                  |
 | --------- | --------------------- | ---------------------------- |
@@ -79,7 +79,7 @@ require('null-ls').setup {
 
 ### LSP UIs
 
-Use [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) - A light-weight LSP plugin based on Neovim's built-in LSP with a highly performant UI
+[glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) - A light-weight LSP plugin based on Neovim's built-in LSP with a highly performant UI
 
 | Normal        | Command                         |
 | ------------- | ------------------------------- |
@@ -107,7 +107,7 @@ require('indent_blankline').setup({
 
 ### Comment
 
-[numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) - Smart and powerful comment plugin for Neovim
+Use [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) - Smart and powerful comment plugin for Neovim
 
 | Normal / Visual | Description                                                   |
 | --------------- | ------------------------------------------------------------- |

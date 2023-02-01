@@ -1,6 +1,8 @@
 local status, lualine = pcall(require, 'lualine')
 if (not status) then return end
 
+local lazy_status = require('lazy.status')
+
 lualine.setup {
   options = {
     icons_enabled = true,
@@ -18,10 +20,17 @@ lualine.setup {
       path = 0 -- 0 = just filename, 1 = relative path, 2 = absolute path
     } },
     lualine_x = {
-      { 'diagnostics', sources = { 'nvim_diagnostic' }, symbols = { error = ' ', warn = ' ', info = ' ',
-        hint = ' ' } },
+      {
+        'diagnostics',
+        sources = { 'nvim_diagnostic' },
+        symbols = { error = ' ', warn = ' ', info = ' ', hint = ' ' }
+      },
       'encoding',
-      'filetype'
+      'filetype',
+      {
+        lazy_status.updates,
+        cond = lazy_status.has_updates,
+      }
     },
     lualine_y = { 'progress' },
     lualine_z = { 'location' }

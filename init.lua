@@ -1,5 +1,3 @@
-require('plugins')
-
 --[[ General ]]
 vim.cmd('autocmd!')
 vim.scriptencoding = 'utf-8'
@@ -80,3 +78,5 @@ keymap.set('n', 'te', ':tabedit') -- New tab
 
 -- Toggle between open windows
 keymap.set('n', '<Space>', '<C-w>w')
+
+require('plugins')
