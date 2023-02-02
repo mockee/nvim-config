@@ -1,5 +1,7 @@
 # Yan's Neovim Config
 
+<img src="https://user-images.githubusercontent.com/176544/216268319-acb5b6c7-747a-43c7-8711-924c0fc056cf.jpg" width="929">
+
 ## Manager
 
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim) - A modern plugin manager for Neovim
