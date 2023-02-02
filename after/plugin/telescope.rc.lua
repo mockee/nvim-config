@@ -23,6 +23,11 @@ local fb_actions = require 'telescope'.extensions.file_browser.actions
 
 telescope.setup {
   defaults = {
+    layout_config = {
+      horizontal = {
+        preview_cutoff = 80,
+      },
+    },
     mappings = {
       n = {
         ['q'] = actions.close

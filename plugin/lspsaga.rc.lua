@@ -5,6 +5,9 @@ saga.setup({
   ui = {
     winblend = 10,
     border = 'rounded',
+  },
+  outline = {
+    win_position = 'left',
   }
 })
 
