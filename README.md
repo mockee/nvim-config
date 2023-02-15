@@ -32,6 +32,13 @@ require('tokyonight').setup({
 })
 ```
 
+Use [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) with `Hack` font
+
+```
+$ brew tap homebrew/cask-fonts
+$ brew install --cask font-hack-nerd-font
+```
+
 ### Statusline
 
 Use [Lualine](https://github.com/nvim-lualine/lualine.nvim) and enable the `tokyonight` colorscheme and `lazy.status`
