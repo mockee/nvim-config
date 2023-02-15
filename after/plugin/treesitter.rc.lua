@@ -10,6 +10,7 @@ ts.setup {
   },
   ensure_installed = {
     'lua',
+    'vim',
     'fish',
     'json',
     'yaml',
