@@ -19,6 +19,7 @@ ts.setup {
     'html',
     'make',
     'markdown',
+    'markdown_inline',
   },
   autotag = {
     enable = true,
