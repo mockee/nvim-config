@@ -22,13 +22,14 @@ require('lazy').setup({
   'neovim/nvim-lspconfig',
 
   --[[ Workbench ]]
-  'folke/tokyonight.nvim', -- Theme
+  'folke/tokyonight.nvim',        -- Theme
   'kyazdani42/nvim-web-devicons', -- File icons
-  'nvim-lualine/lualine.nvim', -- Statusline
-  'akinsho/nvim-bufferline.lua', -- Tabs
+  'nvim-lualine/lualine.nvim',    -- Statusline
+  'akinsho/nvim-bufferline.lua',  -- Tabs
 
   --[[ Text Editor ]]
-  { -- Syntax highlighting
+  {
+    -- Syntax highlighting
     'nvim-treesitter/nvim-treesitter',
     build = function()
       require('nvim-treesitter.install').update({
@@ -38,16 +39,16 @@ require('lazy').setup({
   },
 
   -- Autocomplete
-  'hrsh7th/nvim-cmp', -- Completion engine plugin
-  'hrsh7th/cmp-nvim-lsp', -- `nvim-cmp` source for builtin LSP
-  'hrsh7th/cmp-buffer', -- `nvim-cmp` source for buffer words
-  'onsails/lspkind-nvim', -- Pictograms for completion items
-  'windwp/nvim-autopairs', -- Auto close () [] {} '' ""
-  'windwp/nvim-ts-autotag', -- Auto close / rename HTML tag
-  'L3MON4D3/LuaSnip', -- Snippet
+  'hrsh7th/nvim-cmp',                -- Completion engine plugin
+  'hrsh7th/cmp-nvim-lsp',            -- `nvim-cmp` source for builtin LSP
+  'hrsh7th/cmp-buffer',              -- `nvim-cmp` source for buffer words
+  'onsails/lspkind-nvim',            -- Pictograms for completion items
+  'windwp/nvim-autopairs',           -- Auto close () [] {} '' ""
+  'windwp/nvim-ts-autotag',          -- Auto close / rename HTML tag
+  'L3MON4D3/LuaSnip',                -- Snippet
 
   'jose-elias-alvarez/null-ls.nvim', -- Code formatter
-  'glepnir/lspsaga.nvim', -- LSP UIs
+  'glepnir/lspsaga.nvim',            -- LSP UIs
 
   {
     'numToStr/Comment.nvim',
@@ -59,13 +60,13 @@ require('lazy').setup({
   'norcalli/nvim-colorizer.lua', -- Color highlighter
 
   --[[Features]]
-  'nvim-lua/plenary.nvim', -- Common utilities
-  'nvim-telescope/telescope.nvim', -- Fuzzy finder
+  'nvim-lua/plenary.nvim',                      -- Common utilities
+  'nvim-telescope/telescope.nvim',              -- Fuzzy finder
   'nvim-telescope/telescope-file-browser.nvim', -- File browser
-  'akinsho/toggleterm.nvim', -- Terminal
+  'akinsho/toggleterm.nvim',                    -- Terminal
 
-  'lewis6991/gitsigns.nvim', -- Git decorations
-  'dinhhuy258/git.nvim', -- Lua `vim-fugitive`
+  'lewis6991/gitsigns.nvim',                    -- Git decorations
+  'dinhhuy258/git.nvim',                        -- Lua `vim-fugitive`
 
   {
     'iamcco/markdown-preview.nvim',
