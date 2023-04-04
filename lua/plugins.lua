@@ -37,6 +37,8 @@ require('lazy').setup({
       })
     end,
   },
+  'nvim-treesitter/nvim-treesitter-context',
+
 
   -- Autocomplete
   'hrsh7th/nvim-cmp',                -- Completion engine plugin
