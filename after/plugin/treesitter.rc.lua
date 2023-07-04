@@ -15,6 +15,7 @@ ts.setup {
     'json',
     'yaml',
     'tsx',
+    'typescript',
     'css',
     'html',
     'make',
@@ -24,4 +25,8 @@ ts.setup {
   autotag = {
     enable = true,
   },
+  context_commentstring = {
+    enable = true,
+    enable_autocmd = false,
+  }
 }
