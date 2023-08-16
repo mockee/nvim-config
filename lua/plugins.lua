@@ -50,7 +50,7 @@ require('lazy').setup({
   'L3MON4D3/LuaSnip',                -- Snippet
 
   'jose-elias-alvarez/null-ls.nvim', -- Code formatter
-  'glepnir/lspsaga.nvim',            -- LSP UIs
+  'nvimdev/lspsaga.nvim',            -- LSP UIs
 
   {
     'numToStr/Comment.nvim',
