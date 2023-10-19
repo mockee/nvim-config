@@ -1,6 +1,4 @@
-local status, blankline = pcall(require, 'indent_blankline')
+local status, blankline = pcall(require, 'ibl')
 if (not status) then return end
 
-blankline.setup({
-  show_current_context = true,
-})
+blankline.setup()

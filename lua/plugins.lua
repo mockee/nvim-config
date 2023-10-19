@@ -58,7 +58,12 @@ require('lazy').setup({
       'JoosepAlviste/nvim-ts-context-commentstring'
     }
   },
-  'lukas-reineke/indent-blankline.nvim',
+
+  {
+    'lukas-reineke/indent-blankline.nvim',
+    main = 'ibl'
+  },
+
   'norcalli/nvim-colorizer.lua', -- Color highlighter
 
   --[[Features]]
