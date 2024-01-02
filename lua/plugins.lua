@@ -79,6 +79,11 @@ require('lazy').setup({
     'iamcco/markdown-preview.nvim',
     build = function() vim.fn['mkdp#util#install']() end,
   },
+
+  {
+    'Exafunction/codeium.vim',
+    event = 'BufEnter'
+  },
 }, {
   checker = {
     enabled = true,
